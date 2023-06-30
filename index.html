@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEMANDAS EXTERNAS</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icone na guia/tab do navegador -->
+    <link rel="icon" href="/img/logo/Logo_IFSP_mini-removebg-preview.png" type="image/x-icon">
+
+    <!-- Icons Font -->
+    <link 
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!--ÍCONES -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+ integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="topo">
+      <header> 
+          <nav>
+            <div class="pcMenu">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="#event-subscription" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#sobre" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#key-benefits" class="nav-link">Nosso Campus</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contatos" class="nav-link">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburguer">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+      </header>
+  
+      <div id="event-subscription">
+        <div id="disclaimer">
+          <h2>IFSP</h2>
+          <p class="about-event">
+            Portal de demandas externas
+          </p>
+          <p>Campus:</p>
+          <p class="event-date">Bragança Paulista.</p>
+        </div>
+        <div id="subscription-form">
+          <p>Preencha o formulário para nos enviar sua demanda!</p>
+          <form target="_blank" action="https://formsubmit.co/daniel.porto@aluno.ifsp.edu.br" method="POST" onsubmit="formEnvio(event)">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input name="name" type="text" placeholder="Digite seu nome" required/>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input name="email" type="email" placeholder="Digite seu melhor e-mail" required/>
+            </div>
+            <div class="form-group">
+              <label for="categoria">Áreas disponiveis</label>
+              <select id="categoria" name="categoria" required>
+                <option value="">Escolha uma opção:</option>
+                  <option value="ADS">Ánalise e Desenvolvimento de Sistemas</option>
+                  <option value="ENG">Engenharia de Controle e Automação</option>
+                  <option value="MAT">Matemática</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea rows="5" name="mensagem" id="mensagem" placeholder="Explique sua demanda"ired></textarea>
+            </div>
+            
+            <input type="submit" class="btn" value="Enviar" />
+          </form>
+        </div>
+      </div>
+      <section id="details">
+    </div>
+      <div class="detail" id="detail-1">
+        <!-- <img src="img/hrz-3.jpg" alt="" /> -->
+        <div class="detail-description">
+          <h3>INSTRUÇÕES</h3>
+        </div>
+      </div>
+     <section id="key-instruções">
+      <div class="instruções">
+        <div class="instrução">
+          <div id="instrução-1" class="instrução-img"></div>
+          <p>Escreva as informações solicitadas no</p>
+            <a href="#event-subscription" id="a">formulário de demandas.</a 
+          <p></p>                                                   
+        </div>
+        <div class="instrução">
+          <div id="instrução-2" class="instrução-img"></div>
+          <p>
+            Envie sua demanda.
+          </p>
+        </div>
+        <div class="instrução">
+          <div id="instrução-3" class="instrução-img"></div>
+          <p>
+           Aguarde que entraremos em contato.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+  <div id="sobre">
+      <section class="location-section">
+      <!-- <h3 class="location-title">Conheça o projeto</h3> -->
+      <h3 class="location-title">Sobre a Extensão</h3>
+  </section>
+    <!-- <div class="extensaoTitulo"> 
+      <h2>Curricularização da Extensão</h2>
+    </div> -->
+    
+
+    <div class="content">
+      <section class="content-container">
+        <article class="content-text">
+          <h2 class="title-top" id="titleTop">Curricularização da Extensão</h2>
+          <p>A curricularização da extensão, visa a adequação dos projetos de curso de modo a garantir que um percentual mínimo de sua carga horária seja direcionado às atividades de extensão. Por meio de intervenções que envolvam diretamente a comunidade externa. Desta forma, os discentes se preparam para, futuramente, integrar equipes de trabalho, estudo ou pesquisa diversas e pensar de forma mais chegada às necessidades singulares que se revelem em seus percursos profissionais.</p>
+  
+        </article>
+        <div class="content-image">
+          <h2 class="title-top">Projetos Realizados</h2>
+          <figure>
+            <img src="img/capitech.jpeg" alt="CAPITECH-BANNER">
+            <figcaption>CAPITECH - 1º Seminário de Curricularização da Extensão de ADS</figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+      
+  </div>
+    
+    <section id="key-benefits" >
+      <h2>Nosso Campus</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            A mudança para este novo campus, no bairro São Miguel, foi realizada no início de 2018.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Atualmente o quadro de servidores do Campus Bragança Paulista
+            é composto por 70 professores e 42 técnico-administrativos.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            O novo prédio está dividido em dois blocos, com 3 e 5 andares, 
+            totalizando mais de 7.500 m² de área construída
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="details">
+      <div class="detail" id="detail-1">
+        <div class="detail-description">
+          <h3>SOBRE</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+            <p>?</p>
+        </div>
+        <img src="img/desenvolvimento-web.png" alt="" />
+      </div>
+    </section> -->
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Av. Maj. Fernando Valle, 2013</p>
+          <p>São Miguel, Brag. Paulista</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Venha nos visitar</h3>
+        <p>
+          Atualmente, o IFSP-BRA oferece cursos técnicos integrados ao 
+          Ensino Médio, técnicos concomitantes ou subsequentes, 
+          graduação (bacharelado, licenciatura e tecnólogo) e pós-graduação.
+        </p>
+      </div>
+    </section>
+   <footer id="contatos">
+    <div class="footer-container">
+      <section>
+        <h4>Localização</h4>
+        <p>IFSP-BRA</p>
+        <p>Av. Maj. Fernando Valle, 2013 - São Miguel, Bragança Paulista - SP, 12903-000</p>
+      </section>
+      <section class="email-section">
+        <h4>Contato</h4>
+        <p>Telefone: (11) 4034-7800</p>
+        <p>E-mail: suademanda@ifsp.edu.br</p>
+      </section>
+      <section>
+        <h4>Redes Sociais</h4>
+        <ul class="social-media">
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Equipe</h4>
+        <p>Daniel Navarro Porto</p>
+        <p>João Paulo Pereira Costa</p>
+        <p>Lybio Croton de Moraes Junior</p>
+      </section>
+    </div>
+    <div class="map-container">
+      <h4>Mapa</h4>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3493.0066325824487!2d-46.56081620007224!3d-22.947027354680824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cecb55ee153643%3A0xa53800f610a73b6f!2sIFSP%20C%C3%A2mpus%20Bragan%C3%A7a%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1687974137338!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
